@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment{
         PRIVATE_KEY            = credentials('privatekey')
-        DOCKER_IMAGE           = "ddthuong/nginx"
+        DOCKER_IMAGE           = "992610/nginx"
     }
     stages {
         stage("Build"){
